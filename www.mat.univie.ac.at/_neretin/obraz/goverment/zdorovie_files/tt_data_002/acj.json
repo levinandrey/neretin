@@ -1,0 +1,26 @@
+OX_2287074687({
+  "ads":{
+    "medium":"w",
+    "record_tmpl":"http://us-ads.openx.net/{medium}/1.0/{rtype}?ts={txn_state}",
+    "pixels":"http://us-u.openx.net/w/1.0/pd?plm=1&ph=94ef58655625200a8cfc5b15afcd0b94ad52d590",
+    "adunits" : [
+      {
+        "auid":"311549",
+        "chain":[
+          {
+            "is_fallback":1,
+            
+            "ad_id":"0",
+            "width":"160",
+            "height":"600",
+            "html":"<script language=JavaScript src=\"http://mshakers.rotator.hadj7.adjuggler.net/servlet/ajrotator/252066/0/vj?z=mshakers&dim=221013&kw=&click=\"></script><noscript><a href=\"http://mshakers.rotator.hadj7.adjuggler.net/servlet/ajrotator/252066/0/cc?z=mshakers\"><img src=\"http://mshakers.rotator.hadj7.adjuggler.net/servlet/ajrotator/252066/0/vc?z=mshakers&dim=221013&kw=&click=&abr=$imginiframe\" width=\"160\" height=\"600\" border=\"0\"></a></noscript>",
+            "target":"_blank",
+            "ts":"1fHJhaWQ9MTlhZTNhYTQtN2NlNS00MTQ4LWE4YjYtMjFiNjRjOGYyZTQzfHNpZD02NDg4NXxhdW09RE1JRC5XRUJ8YXVpZD0zMTE1NDl8cmlkPTJiOGRjNmNkLTFiZmEtNDVmMS04YWQ1LWJlZWE1ZTM1NDE0MnxwYz1VU0R8dXI9RW04SG16MzZwZnxydD0xMzgxNTk2NTUxfHB1Yj02NzQ2Mg",
+            "type":"html",
+            "ad_url":"<script language=JavaScript src=\"http://mshakers.rotator.hadj7.adjuggler.net/servlet/ajrotator/252066/0/vj?z=mshakers&dim=221013&kw=&click=\"></script><noscript><a href=\"http://mshakers.rotator.hadj7.adjuggler.net/servlet/ajrotator/252066/0/cc?z=mshakers\"><img src=\"http://mshakers.rotator.hadj7.adjuggler.net/servlet/ajrotator/252066/0/vc?z=mshakers&dim=221013&kw=&click=&abr=$imginiframe\" width=\"160\" height=\"600\" border=\"0\"></a></noscript>"
+          }
+        ]
+      }
+    ]
+  }
+});

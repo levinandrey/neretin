@@ -1,0 +1,88 @@
+/* ---------------------------------------------------------------------------------
+   file-start: stc/sup/s/print.css 
+*/
+
+.w-cs,
+.hr HR,
+.replylink,
+.comment-menu,
+.comment-head LABEL,
+.comment-head INPUT,
+.comment-head P A,
+.comment-head .comment-upic,
+.entry-linkbar,
+.sidebar,
+.meta-mood-value IMG,
+.entrymenu,
+.entry-text DL.author DT,
+.userpic,
+.nav,
+.nav-sub,
+.hidden {
+	display:none;
+	}
+ABBR {
+	border-bottom:none;
+	}
+BODY {
+	font:10pt/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+	color:#000;
+	background:none;
+	}
+A {
+	text-decoration:none;
+	color:#222;
+	}
+A IMG {
+	border:none;
+	}
+H1, H2, H3, H4, H5, H6, .entry .entry-title {
+	margin:1em 0 0;
+	line-height:1.2;
+	}
+P, UL, OL, DL, HR {
+	margin-bottom:1em;
+	}
+.entry .entry-title {
+	font-size:16pt;
+	}
+.entry .entry-text .author DD {
+	display:inline;
+	margin-left:0;
+	}
+.view-recent .entry .entry-text .author .ljuser {
+	display:none;
+	}
+.entry-content A[href^="http://"]:after { content:" (" attr(href) ") "; }
+.ljtags A[href^="http://"]:after { content:""; }
+
+.comment-text, .comment-head, .comment-head *, .comment-head-in P .ljuser, .comment-head-in P .ljuser A {
+	display:inline;
+	}
+	.comment-head-in P .ljuser {
+		font-weight:bold;
+		}
+	.comment-head-in P .ljuser A:after {
+		content:": ";
+		}
+		.comment-head-in P .ljuser A.ico:after {
+			content:"";
+			}
+.comment-wrap {
+	display:block;
+	margin-bottom:.5em;
+	}
+.hr, .entry-wrap .hr {
+	display:block;
+	height:1pt;
+	width:100%;
+	margin:.5em 0;
+	background:#000;
+	}
+.entry-comments-text .hr {
+	display:none;
+	}
+
+
+/* file-end: stc/sup/s/print.css 
+----------------------------------------------------------------------------------*/

@@ -1,0 +1,118 @@
+body, font, h1, h2, h3, h4, a, p, b, strong, li, ul, td, th, div, span, input, textarea, select, option, fieldset, legend, label {
+	font-family         : verdana, helvetica, arial;
+	font-size           : 10pt;
+	color               : #333333;
+}
+
+.normal {
+	font-size           : 10pt;
+}
+.middle {
+	font-size           : 9pt;
+}
+.small {
+	font-size           : 8pt;
+}
+.bold  {
+	font-weight         : bold;
+}
+.plain {
+	text-decoration     : none;
+}
+.black {
+	color               : #333333;
+}
+.blue {
+	color               : #003399;
+}
+.red {
+	color               : #972626;
+}
+
+h1 {
+	font-size           : 14pt;
+	color               : #003399;
+	font-weight         : normal;
+	border              : 0px;
+	margin              : 0px;
+	margin-top          : 5px;
+	margin-bottom       : 10px;
+	padding             : 0px;
+}
+h2 {
+	font-size           : 10pt;
+	color               : #003399;
+	font-weight         : bold;
+	border              : 0px;
+	margin              : 0px;
+	margin-bottom       : 5px;
+	padding             : 0px;
+}
+h3 {
+	font-size           : 10pt;
+	color               : #333333;
+	font-weight         : bold;
+	border              : 0px;
+	margin              : 0px;
+	margin-bottom       : 5px;
+	padding             : 0px;
+}
+h4 {
+	font-size           : 10pt;
+	color               : #333333;
+	font-weight         : bold;
+	border              : 0px;
+	margin              : 0px;
+	margin-bottom       : 2px;
+	padding             : 0px;
+}
+
+p {
+	margin-top          : 0px;
+	margin-bottom       : 5px;
+}
+p.blue {
+	color               : #003399;
+	margin-bottom       : 5px;
+}
+p.paragraph {
+	color               : #003399;
+	margin-bottom       : 10px;
+}
+
+a {
+	color               : #003399;
+}
+a.navigation, a.sitemap, a.news {
+	color               : #333333;
+}
+
+input.form, textarea.form, input.submit, button.submit, select.form, button.form {
+	width               : 99.5%;
+}
+fieldset.form {
+	background          : #e7e7e7;
+	margin              : 0px;
+	padding             : 5px;
+	border              : 1px solid #aaaaaa;
+}
+legend.form {
+	display             : block;
+	background          : #ffffff;
+	border              : 1px solid #aaaaaa;
+	padding             : 1px;
+	padding-bottom      : 2px;
+	padding-left        : 5px;
+	padding-right       : 5px;
+	font-size           : 9pt;
+	font-weight         : bold;
+}
+
+a.history {
+	color               : #333333;
+	font-size           : 9pt;
+	text-decoration     : none;
+}
+a:hover.history, a:active.history {
+	background          : #ffffff;
+}
